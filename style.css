@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+
+
+
+.container {
+    display: flex;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    /* background-color: DodgerBlue; */
+    width: 100%;
+    height: 600px;
+    
+
+}
+
+.grid1 {
+    background-color: hsl(31, 77%, 52%) ;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    align-items: left;
+    padding: 0px 55px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    
+
+}
+
+.grid2 {
+    background-color: hsl(184, 100%, 22%);
+    display: flex;
+    flex-direction: column;
+    padding: 0px 55px;
+
+
+}
+
+.grid3 {
+    background-color: hsl(179, 100%, 13%);
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    padding: 0px 55px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+
+}
+
+.car-logo {
+    padding-top: 40px; 
+    width: 80px;
+}
+
+.learn-more {
+    display: flex;
+    align-items: flex-start;
+    padding: 40px 0px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.learn-more p {
+    background-color: whitesmoke;
+    padding: 15px;
+    border-radius: 40px;
+}
+
+.learn-more p:active {
+    cursor: pointer;
+    background-color: none;
+}
+
+.car-type {
+    padding-bottom: 20px;
+    padding: 30px 0px;
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.description {
+    color: hsl(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    line-height: 30px;
+}
+
+
+
+
+.attribution {
+    color:hsl(31, 77%, 52%);
+    font-size: 11px;
+    font-family: 'Lexend Deca', sans-serif;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%)
+}
+
