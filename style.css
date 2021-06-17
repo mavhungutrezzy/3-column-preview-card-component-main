@@ -64,7 +64,6 @@
 }
 
 .learn-more p {
-    background-color: whitesmoke;
     padding: 15px;
     border-radius: 40px;
 }
@@ -89,6 +88,43 @@
     line-height: 30px;
 }
 
+
+#sedans p {
+    color:hsl(31, 77%, 52%);
+    background-color: white;
+}
+
+#sedans p:active {
+    color: white;
+    background-color: hsl(31, 77%, 52%);
+    border: 1px solid whitesmoke;
+
+}
+
+#suvs p:active {
+    color: white;
+    background-color: hsl(184, 100%, 22%);
+    border: 1px solid whitesmoke;
+
+}
+
+#luxurys p:active {
+    color: white;
+    background-color: hsl(179, 100%, 13%);
+    border: 1px solid whitesmoke;
+
+}
+
+#suvs p {
+    color:hsl(184, 100%, 22%);
+    background-color: white;
+
+}
+
+#luxurys p {
+    color: hsl(179, 100%, 13%);
+    background-color: white;                                        
+}
 
 
 
